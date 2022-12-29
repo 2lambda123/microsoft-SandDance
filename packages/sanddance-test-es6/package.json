@@ -5,7 +5,7 @@
   "scripts": {
     "eslint": "eslint -c ../../.eslintrc.json --fix ./src/**/*.ts*",
     "build:sanddance-core": "tsc -p .",
-    "start": "parcel serve ./test/index.html --open",
+    "start": "parcel serve ./test/sanddance-test-es6.html --open",
     "deploy": "parcel build ./src/sanddance-test-es6.ts --no-autoinstall --no-cache"
   },
   "umd": "../../docs/tests/v4/es6/js/sanddance-test-es6.js",
